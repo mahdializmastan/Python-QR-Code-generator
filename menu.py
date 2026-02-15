@@ -1,6 +1,5 @@
 import qrcode
 
-
 menu_text = """
 ☕️✨ **کافه آرامش** ✨🍰
 
@@ -32,10 +31,8 @@ menu_text = """
    و نیازی به اتصال اینترنت ندارد!
 """
 
-# تابع make() ساده‌ترین راه برای ساخت QR کد است
 qr = qrcode.make(menu_text)
 
-# 5. ذخیره فایل با کیفیت خوب
 output_filename = "cafe_menu_offline.png"
 qr.save(output_filename, quality=300)  # کیفیت ۹۵ از ۱۰۰
 
