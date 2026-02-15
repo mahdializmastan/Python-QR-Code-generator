@@ -1,2 +1,2 @@
 # Python-QR-Code-generator
-A sample python script which create offline menus with QR Code 
+Completely offline QR code for restaurants, cafes and any business that needs an offline menu with QR code.
